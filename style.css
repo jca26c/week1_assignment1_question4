@@ -1,7 +1,8 @@
-html, body {
-  height: 95%;
-}
-
-#map {
-  height: 100%;
+html,
+body,
+#viewDiv {
+  padding: 10;
+  margin: 10;
+  height: 500px;
+  width: 500px;
 }
