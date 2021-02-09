@@ -10,7 +10,7 @@ var Stamen_Terrain = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/terra
 
 $.getJSON("https://raw.githubusercontent.com/gbrunner/adv-python-for-gis-and-rs/master/Week%201/sf_crime.geojson",function(data){
     var crime_icon = L.icon({
-      iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color markers/master/img/marker-icon-2x-red.png',
+      iconUrl: 'https://effect.org/wp-content/uploads/2016/01/crime-icon.png',
       iconSize: [60,50]
     });
     var crime = L.geoJson(data,{
